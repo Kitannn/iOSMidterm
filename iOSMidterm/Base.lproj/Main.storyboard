@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRq-uk-Q9E">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRq-uk-Q9E">
                                 <rect key="frame" x="277" y="303" width="33" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="L8c-sS-81V"/>
@@ -104,7 +104,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ht7-QE-mp9"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="items" id="ht7-QE-mp9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JxM-hw-UcM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -119,6 +119,7 @@
                         <viewControllerLayoutGuide type="bottom" id="iBI-K3-rr1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CY3-Ng-zzE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testzed" translatesAutoresizingMaskIntoConstraints="NO" id="NcF-oE-DhQ">
@@ -154,7 +155,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="eVp-D3-RMY"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="items" id="eVp-D3-RMY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vq1-s5-tUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,6 +170,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tGw-IH-mSk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="00e-wQ-gJI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unf-3D-amM">
@@ -204,7 +206,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="9el-ld-G5O"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="items" id="9el-ld-G5O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q4t-Ha-NVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,6 +221,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bvH-wB-VcV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Rnk-Xx-sHq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpn-8H-v4m">
@@ -254,7 +257,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="qM7-SA-rl9"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="items" id="qM7-SA-rl9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X2r-h1-yon" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -288,6 +291,7 @@
                         <viewControllerLayoutGuide type="bottom" id="i50-0a-dMm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OVh-X3-Gvr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shen" translatesAutoresizingMaskIntoConstraints="NO" id="R7B-je-EAv">
@@ -323,7 +327,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="67s-bo-OiW"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="items" id="67s-bo-OiW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUD-6B-fP1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -386,7 +390,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="NCQ-0f-xem"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="items" id="NCQ-0f-xem"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wvK-Y6-WHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -402,6 +406,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PfH-ra-Vd9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v9O-uO-zhH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkJ-1Q-GmJ">
@@ -430,7 +435,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 3" selectedImage="Item3" id="8m7-VU-hGg"/>
+                    <tabBarItem key="tabBarItem" title="Item 3" image="items" selectedImage="Item3" id="8m7-VU-hGg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UHe-dd-hwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -465,6 +470,7 @@
                         <viewControllerLayoutGuide type="bottom" id="IJv-0R-SUn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OAG-Da-UkL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vDay" translatesAutoresizingMaskIntoConstraints="NO" id="1UI-Qp-GDC">
@@ -500,7 +506,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Pcp-h1-pzz"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="items" id="Pcp-h1-pzz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94I-e7-AGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -515,6 +521,7 @@
                         <viewControllerLayoutGuide type="bottom" id="pPv-Ri-XU8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2qN-pa-BOK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaNaMa" translatesAutoresizingMaskIntoConstraints="NO" id="q3Z-9z-7Up">
@@ -550,7 +557,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="58d-Uk-HMn"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="items" id="58d-Uk-HMn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDP-Cf-d7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -585,6 +592,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Nli-Uj-ZcN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xiH-vu-X6k">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="All" translatesAutoresizingMaskIntoConstraints="NO" id="Nek-2r-YIb">
@@ -620,7 +628,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="dg3-38-Obk"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="items" id="dg3-38-Obk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nHC-B5-ZNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -631,6 +639,7 @@
         <image name="All" width="672" height="682"/>
         <image name="Item3" width="60" height="60"/>
         <image name="LaNaMa" width="240" height="320"/>
+        <image name="items" width="10" height="10"/>
         <image name="redFrs" width="486" height="324"/>
         <image name="shen" width="682" height="455"/>
         <image name="testzed" width="682" height="455"/>
@@ -638,6 +647,6 @@
         <image name="whiteFrs" width="533" height="355"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ngG-KG-utL"/>
+        <segue reference="yRu-St-1Jj"/>
     </inferredMetricsTieBreakers>
 </document>
