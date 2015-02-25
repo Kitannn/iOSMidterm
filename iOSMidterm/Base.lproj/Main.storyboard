@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="iOSMidterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRq-uk-Q9E">
+                                <rect key="frame" x="277" y="303" width="33" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="L8c-sS-81V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="L8c-sS-81V"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="L8c-sS-81V"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="showDetail" id="4rx-hN-52R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VRq-uk-Q9E" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="192" id="K9B-vP-cLl"/>
+                            <constraint firstItem="VRq-uk-Q9E" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VHu-63-sbg"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="VRq-uk-Q9E" secondAttribute="bottom" constant="268" id="i9C-40-cGh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K9B-vP-cLl"/>
+                                <exclude reference="VHu-63-sbg"/>
+                                <exclude reference="i9C-40-cGh"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="K9B-vP-cLl"/>
+                                <include reference="VHu-63-sbg"/>
+                                <include reference="i9C-40-cGh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1705.5" y="65"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="gg3-PP-Udm">
+            <objects>
+                <viewController id="2ne-sL-Odr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y8I-GX-K7K"/>
+                        <viewControllerLayoutGuide type="bottom" id="g5i-NE-ZjC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sZ3-a9-LxU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOu-HT-6t3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Cosplay">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="91" y="265" width="219" height="70"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="dx2-qf-m7b" kind="show" id="mkG-aB-Nk4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JOu-HT-6t3"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="JOu-HT-6t3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="ht7-QE-mp9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JxM-hw-UcM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739.5" y="1887"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="26W-t8-JbT">
+            <objects>
+                <viewController id="ik1-Rr-6pn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m68-rb-dR8"/>
+                        <viewControllerLayoutGuide type="bottom" id="iBI-K3-rr1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CY3-Ng-zzE">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testzed" translatesAutoresizingMaskIntoConstraints="NO" id="NcF-oE-DhQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-152" y="55" width="670" height="410"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eS-WN-K9S">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="183" y="482" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="ngG-KG-utL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NcF-oE-DhQ"/>
+                                <exclude reference="9eS-WN-K9S"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NcF-oE-DhQ"/>
+                                <include reference="9eS-WN-K9S"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="eVp-D3-RMY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vq1-s5-tUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2617.5" y="1203"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="sas-E2-Wfb">
+            <objects>
+                <viewController id="MIT-AF-DYq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aIY-Y4-sbt"/>
+                        <viewControllerLayoutGuide type="bottom" id="tGw-IH-mSk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="00e-wQ-gJI">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unf-3D-amM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="183" y="488" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="Q9i-ZP-Rej"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redFrs" translatesAutoresizingMaskIntoConstraints="NO" id="pvp-g5-E67">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-126" y="97" width="606" height="374"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="unf-3D-amM"/>
+                                <exclude reference="pvp-g5-E67"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="unf-3D-amM"/>
+                                <include reference="pvp-g5-E67"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="9el-ld-G5O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q4t-Ha-NVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618.5" y="3243"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="FVa-xj-EzX">
+            <objects>
+                <viewController id="Udd-wi-e33" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="60v-e0-ben"/>
+                        <viewControllerLayoutGuide type="bottom" id="bvH-wB-VcV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rnk-Xx-sHq">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpn-8H-v4m">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="485" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="yRu-St-1Jj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteFrs" translatesAutoresizingMaskIntoConstraints="NO" id="Oay-9i-otY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="109" width="508" height="358"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="tpn-8H-v4m"/>
+                                <exclude reference="Oay-9i-otY"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="tpn-8H-v4m"/>
+                                <include reference="Oay-9i-otY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="qM7-SA-rl9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X2r-h1-yon" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618.5" y="2442"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nD5-ND-Ccw">
+            <objects>
+                <tabBarController id="edY-ma-q6j" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iK0-5A-8do">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Udd-wi-e33" kind="relationship" relationship="viewControllers" id="A8R-hw-RoC"/>
+                        <segue destination="MIT-AF-DYq" kind="relationship" relationship="viewControllers" id="6mP-f8-vGb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3xd-kq-zQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277.5" y="2625"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="V6s-Cs-mJ5">
+            <objects>
+                <viewController id="IM7-lQ-deb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7gI-It-mmA"/>
+                        <viewControllerLayoutGuide type="bottom" id="i50-0a-dMm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OVh-X3-Gvr">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shen" translatesAutoresizingMaskIntoConstraints="NO" id="R7B-je-EAv">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="-30" width="400" height="600"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlN-Z4-Vfa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="513" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="fo6-SW-Uqb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="R7B-je-EAv"/>
+                                <exclude reference="UlN-Z4-Vfa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="R7B-je-EAv"/>
+                                <include reference="UlN-Z4-Vfa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="67s-bo-OiW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUD-6B-fP1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1801.5" y="1203"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qao-49-bU4">
+            <objects>
+                <tabBarController id="dx2-qf-m7b" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Nt5-QH-Yyj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="IM7-lQ-deb" kind="relationship" relationship="viewControllers" id="t4D-rL-GrN"/>
+                        <segue destination="ik1-Rr-6pn" kind="relationship" relationship="viewControllers" id="Fex-Va-qV9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="byj-QM-rI0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277.5" y="1885"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="7fZ-oY-rvH">
+            <objects>
+                <viewController id="np4-Sl-tH4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KaR-nI-tz0"/>
+                        <viewControllerLayoutGuide type="bottom" id="GqE-KM-2A7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9U2-oW-ai5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g09-fA-haC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Polarid Photos">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="97" y="211" width="206" height="177"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="J1d-lB-OME" kind="show" id="LuJ-Ra-sD8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="g09-fA-haC"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="g09-fA-haC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="NCQ-0f-xem"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wvK-Y6-WHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739.5" y="1112"/>
+        </scene>
+        <!--Item 3-->
+        <scene sceneID="ZBh-vX-azU">
+            <objects>
+                <viewController id="nOx-DV-qov" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tGa-o3-TYY"/>
+                        <viewControllerLayoutGuide type="bottom" id="PfH-ra-Vd9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v9O-uO-zhH">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkJ-1Q-GmJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Cars">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="265" width="110" height="70"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="edY-ma-q6j" kind="show" id="bv3-ot-1nR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="wkJ-1Q-GmJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="wkJ-1Q-GmJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 3" selectedImage="Item3" id="8m7-VU-hGg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHe-dd-hwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739.5" y="2625"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SWj-pw-4NY">
+            <objects>
+                <tabBarController id="lqr-61-lVz" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Epu-jD-V3a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="np4-Sl-tH4" kind="relationship" relationship="viewControllers" id="jsu-7Y-Nho"/>
+                        <segue destination="2ne-sL-Odr" kind="relationship" relationship="viewControllers" id="W7J-R9-G8s"/>
+                        <segue destination="nOx-DV-qov" kind="relationship" relationship="viewControllers" id="Vhe-5m-TnZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FnV-VH-imb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1705.5" y="1094"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="es8-Rg-ijQ">
+            <objects>
+                <viewController id="VJK-dS-NAE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LCc-Zw-i0M"/>
+                        <viewControllerLayoutGuide type="bottom" id="IJv-0R-SUn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OAG-Da-UkL">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vDay" translatesAutoresizingMaskIntoConstraints="NO" id="1UI-Qp-GDC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="73" width="350" height="350"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaT-qe-Hye">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="183" y="496" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="FFU-vC-lZJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1UI-Qp-GDC"/>
+                                <exclude reference="UaT-qe-Hye"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1UI-Qp-GDC"/>
+                                <include reference="UaT-qe-Hye"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Pcp-h1-pzz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="94I-e7-AGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2617.5" y="280"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="o3M-pY-HfB">
+            <objects>
+                <viewController id="Zno-q4-rLN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OBZ-nl-45r"/>
+                        <viewControllerLayoutGuide type="bottom" id="pPv-Ri-XU8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2qN-pa-BOK">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaNaMa" translatesAutoresizingMaskIntoConstraints="NO" id="q3Z-9z-7Up">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="53" y="56" width="294" height="415"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlN-pM-nTk">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="183" y="505" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="Nka-4g-j5R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="q3Z-9z-7Up"/>
+                                <exclude reference="qlN-pM-nTk"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="q3Z-9z-7Up"/>
+                                <include reference="qlN-pM-nTk"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="58d-Uk-HMn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDP-Cf-d7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1801.5" y="280"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2mL-Rm-cTF">
+            <objects>
+                <tabBarController id="J1d-lB-OME" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="RbC-dx-rDL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zno-q4-rLN" kind="relationship" relationship="viewControllers" id="mFs-Na-3tu"/>
+                        <segue destination="VJK-dS-NAE" kind="relationship" relationship="viewControllers" id="ZqD-D6-Col"/>
+                        <segue destination="dIq-Kx-Tb8" kind="relationship" relationship="viewControllers" id="lp5-Xa-K9l"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yoa-HL-3Bx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277.5" y="1112"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="uKp-xN-DEK">
+            <objects>
+                <viewController id="dIq-Kx-Tb8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sC3-1j-9oY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nli-Uj-ZcN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xiH-vu-X6k">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="All" translatesAutoresizingMaskIntoConstraints="NO" id="Nek-2r-YIb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="73" width="350" height="350"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HS-dG-U5l">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="183" y="485" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lqr-61-lVz" kind="show" id="qrr-5i-nFM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Nek-2r-YIb"/>
+                                <exclude reference="6HS-dG-U5l"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Nek-2r-YIb"/>
+                                <include reference="6HS-dG-U5l"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="dg3-38-Obk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHC-B5-ZNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3454.5" y="280"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="All" width="672" height="682"/>
+        <image name="Item3" width="60" height="60"/>
+        <image name="LaNaMa" width="240" height="320"/>
+        <image name="redFrs" width="486" height="324"/>
+        <image name="shen" width="682" height="455"/>
+        <image name="testzed" width="682" height="455"/>
+        <image name="vDay" width="213" height="213"/>
+        <image name="whiteFrs" width="533" height="355"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ngG-KG-utL"/>
+    </inferredMetricsTieBreakers>
+</document>
